@@ -20,6 +20,7 @@ body {
   background-color: var(--bg);
   color: var(--text);
   padding: 20px;
+  line-height: 1.6;
 }
 
 /* HEADER */
@@ -31,6 +32,8 @@ header {
 header h1 {
   font-family: 'Playfair Display', serif;
   color: var(--primary);
+  font-size: 2.2rem;
+  margin-bottom: 10px; /* espaço extra */
 }
 
 header p {
@@ -38,10 +41,15 @@ header p {
 }
 
 /* NAV */
+nav {
+  margin-top: 10px;
+}
+
 nav a {
   margin: 0 10px;
   text-decoration: none;
   color: var(--text);
+  transition: 0.3s;
 }
 
 nav a:hover {
@@ -61,16 +69,30 @@ section {
 h2 {
   font-family: 'Playfair Display', serif;
   color: var(--secondary);
+  margin-bottom: 10px;
+  font-size: 1.5rem;
 }
 
-/* IMAGENS */
+/* TEXTO */
+p {
+  font-size: 1rem;
+}
+
+/* LISTA */
+ul {
+  margin-left: 20px;
+}
+
+/* MIDIA (imagens + vídeo alinhados) */
 #midia {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  justify-content: center;
+  gap: 15px;
 }
 
-img {
+/* IMAGENS E VIDEO IGUAIS */
+img, iframe {
   width: 250px;
   height: 180px;
   object-fit: cover;
@@ -80,6 +102,15 @@ img {
 
 img:hover {
   transform: scale(1.05);
+}
+
+/* LINKS */
+a {
+  color: var(--secondary);
+}
+
+a:hover {
+  color: var(--primary);
 }
 
 /* TERMINAL */
@@ -102,8 +133,14 @@ img:hover {
   border-radius: 5px;
 }
 
+#output p {
+  margin: 5px 0;
+}
+
 /* FOOTER */
 footer {
   text-align: center;
   margin-top: 20px;
+  font-size: 14px;
+  color: #94a3b8;
 }
