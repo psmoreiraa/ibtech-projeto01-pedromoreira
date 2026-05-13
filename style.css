@@ -87,15 +87,13 @@ ul {
 /* MIDIA (imagens + vídeo alinhados) */
 #midia {
   text-align: center;
-}
-
-.galeria {
-  display: flex;
+    display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
   margin-top: 10px;
 }
+
 
 /* IMAGENS E VIDEO IGUAIS */
 img, iframe {
