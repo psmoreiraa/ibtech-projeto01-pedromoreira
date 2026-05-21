@@ -24,14 +24,14 @@ Página estática com HTML, CSS e JavaScript vanilla. Sem frameworks.
 ## Como rodar
 
 ```bash
-git clone https://github.com/psmoreiraa/ibtech.git
+git clone https://psmoreiraa.github.io/ibtech-projeto01-pedromoreira/
 cd ibtech
 # abrir index.html no navegador
 ```
 
 ## Acesso online
 
-https://psmoreiraa.github.io/ibtech/
+https://psmoreiraa.github.io/ibtech-projeto01-pedromoreira/
 
 ## Autor
 
